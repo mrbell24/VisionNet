@@ -1,0 +1,585 @@
+/*==================================================
+ABOUT ANIMATION
+==================================================*/
+
+.about-image{
+
+    animation:aboutLeft 1s ease;
+
+}
+
+.about-content{
+
+    animation:aboutRight 1s ease;
+
+}
+
+@keyframes aboutLeft{
+
+    from{
+
+        opacity:0;
+
+        transform:translateX(-60px);
+
+    }
+
+    to{
+
+        opacity:1;
+
+        transform:translateX(0);
+
+    }
+
+}
+
+@keyframes aboutRight{
+
+    from{
+
+        opacity:0;
+
+        transform:translateX(60px);
+
+    }
+
+    to{
+
+        opacity:1;
+
+        transform:translateX(0);
+
+    }
+
+}
+
+
+
+/*==================================================
+SERVICES ANIMATION
+==================================================*/
+
+.service-card{
+
+    animation:serviceFade .8s ease;
+
+}
+
+@keyframes serviceFade{
+
+    from{
+
+        opacity:0;
+
+        transform:translateY(50px);
+
+    }
+
+    to{
+
+        opacity:1;
+
+        transform:translateY(0);
+
+    }
+
+}
+
+/*==================================================
+TECHNOLOGIES ANIMATION
+==================================================*/
+
+.tech-card{
+
+    animation:techFade .8s ease;
+
+}
+
+@keyframes techFade{
+
+    from{
+
+        opacity:0;
+
+        transform:translateY(50px);
+
+    }
+
+    to{
+
+        opacity:1;
+
+        transform:translateY(0);
+
+    }
+
+}
+
+/*==================================================
+STATISTICS SECTION
+==================================================*/
+
+.statistics{
+
+    background:linear-gradient(135deg,#d40000,#8b0000);
+
+    color:#fff;
+
+    position:relative;
+
+    overflow:hidden;
+
+}
+
+/*======================
+GRID
+=======================*/
+
+.stats-grid{
+
+    display:grid;
+
+    grid-template-columns:repeat(auto-fit,minmax(250px,1fr));
+
+    gap:30px;
+
+    margin-top:60px;
+
+}
+
+/*======================
+CARD
+=======================*/
+
+.stat-card{
+
+    background:rgba(255,255,255,.10);
+
+    backdrop-filter:blur(10px);
+
+    border:1px solid rgba(255,255,255,.20);
+
+    border-radius:20px;
+
+    text-align:center;
+
+    padding:45px 25px;
+
+    transition:.4s;
+
+}
+
+.stat-card:hover{
+
+    transform:translateY(-10px);
+
+    background:rgba(255,255,255,.18);
+
+}
+
+/*======================
+ICON
+=======================*/
+
+.stat-card i{
+
+    width:85px;
+
+    height:85px;
+
+    margin:auto;
+
+    margin-bottom:25px;
+
+    border-radius:50%;
+
+    background:#fff;
+
+    color:var(--primary);
+
+    display:flex;
+
+    align-items:center;
+
+    justify-content:center;
+
+    font-size:34px;
+
+    transition:.4s;
+
+}
+
+.stat-card:hover i{
+
+    transform:rotate(360deg);
+
+}
+
+/*======================
+NUMBER
+=======================*/
+
+.stat-card h2{
+
+    font-size:52px;
+
+    font-weight:700;
+
+    margin-bottom:12px;
+
+}
+
+/*======================
+TEXT
+=======================*/
+
+.stat-card h4{
+
+    font-size:20px;
+
+    font-weight:500;
+
+    color:#f5f5f5;
+
+}
+
+/*==================================================
+STATISTICS ANIMATION
+==================================================*/
+
+.stat-card{
+
+    animation:statsFade .8s ease;
+
+}
+
+@keyframes statsFade{
+
+    from{
+
+        opacity:0;
+
+        transform:translateY(50px);
+
+    }
+
+    to{
+
+        opacity:1;
+
+        transform:translateY(0);
+
+    }
+
+}
+
+/*==================================================
+PORTFOLIO ANIMATION
+==================================================*/
+
+.portfolio-card{
+
+    animation:portfolioFade .9s ease;
+
+}
+
+@keyframes portfolioFade{
+
+    from{
+
+        opacity:0;
+
+        transform:translateY(60px);
+
+    }
+
+    to{
+
+        opacity:1;
+
+        transform:translateY(0);
+
+    }
+
+}
+
+/*==================================================
+TESTIMONIAL ANIMATION
+==================================================*/
+
+.testimonial-card{
+
+    animation:testimonialFade .8s ease;
+
+}
+
+@keyframes testimonialFade{
+
+    from{
+
+        opacity:0;
+
+        transform:translateY(60px);
+
+    }
+
+    to{
+
+        opacity:1;
+
+        transform:translateY(0);
+
+    }
+
+}
+
+/*==================================================
+TEAM ANIMATION
+==================================================*/
+
+.team-card{
+
+    animation:teamFade .9s ease;
+
+}
+
+@keyframes teamFade{
+
+    from{
+
+        opacity:0;
+
+        transform:translateY(60px);
+
+    }
+
+    to{
+
+        opacity:1;
+
+        transform:translateY(0);
+
+    }
+
+}
+
+/*==================================================
+PARTNERS ANIMATION
+==================================================*/
+
+.partner-logos img{
+
+    animation:partnerFade .9s ease;
+
+}
+
+@keyframes partnerFade{
+
+    from{
+
+        opacity:0;
+
+        transform:translateY(50px);
+
+    }
+
+    to{
+
+        opacity:1;
+
+        transform:translateY(0);
+
+    }
+
+}
+
+/*==================================================
+CTA ANIMATION
+==================================================*/
+
+.cta-content{
+
+    animation:ctaFade 1s ease;
+
+}
+
+@keyframes ctaFade{
+
+    from{
+
+        opacity:0;
+
+        transform:translateY(60px);
+
+    }
+
+    to{
+
+        opacity:1;
+
+        transform:translateY(0);
+
+    }
+
+}
+
+/*==================================================
+CONTACT ANIMATION
+==================================================*/
+
+.contact-info{
+
+    animation:contactLeft .9s ease;
+
+}
+
+.contact-form{
+
+    animation:contactRight .9s ease;
+
+}
+
+@keyframes contactLeft{
+
+    from{
+
+        opacity:0;
+
+        transform:translateX(-60px);
+
+    }
+
+    to{
+
+        opacity:1;
+
+        transform:translateX(0);
+
+    }
+
+}
+
+@keyframes contactRight{
+
+    from{
+
+        opacity:0;
+
+        transform:translateX(60px);
+
+    }
+
+    to{
+
+        opacity:1;
+
+        transform:translateX(0);
+
+    }
+
+}
+
+/*==================================================
+FOOTER ANIMATION
+==================================================*/
+
+.footer-box{
+
+    animation:footerFade .8s ease;
+
+}
+
+@keyframes footerFade{
+
+    from{
+
+        opacity:0;
+
+        transform:translateY(40px);
+
+    }
+
+    to{
+
+        opacity:1;
+
+        transform:translateY(0);
+
+    }
+
+}
+
+/*==================================================
+MAP ANIMATION
+==================================================*/
+
+.map-container{
+
+    animation:mapFade .9s ease;
+
+}
+
+@keyframes mapFade{
+
+    from{
+
+        opacity:0;
+
+        transform:translateY(60px);
+
+    }
+
+    to{
+
+        opacity:1;
+
+        transform:translateY(0);
+
+    }
+
+}
+
+@media(max-width:768px){
+
+.floating-social{
+
+    right:10px;
+
+    gap:10px;
+
+}
+
+.floating-social a{
+
+    width:45px;
+
+    height:45px;
+
+    font-size:18px;
+
+}
+
+}
+
+/*==================================================
+SCROLL REVEAL
+==================================================*/
+
+.reveal{
+
+    opacity:0;
+
+    transform:translateY(80px);
+
+    transition:all .9s ease;
+
+}
+
+.reveal.active{
+
+    opacity:1;
+
+    transform:translateY(0);
+
+}
